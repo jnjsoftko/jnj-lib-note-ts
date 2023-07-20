@@ -27,7 +27,7 @@ class Notion {
   };
 }
 
-module.exports = new Notion();
+export { Notion };
 
 // & TEST
 // const notion = new Notion();
